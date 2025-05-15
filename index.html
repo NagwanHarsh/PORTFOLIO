@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh Nagwan | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="STYLE.css" />
+    <script src="SCRIPT.js"></script>    
+    <script src="CODE.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>  
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Harsh Nagwan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="text-center text-white py-5">
+        <div class="container">
+            <h1 class="display-4">Harsh Nagwan</h1>
+            <p class="lead">Front-End Developer | Python Programmer | Tester | Tech Enthusiast</p>
+            <a href="#about" class="btn btn-primary mt-3">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/profilePhoto.jpg" alt="Harsh Nagwan" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-8">
+                    <p>I am a B.Tech graduate in Information Technology with a strong foundation in front-end web development and software engineering. Proficient in HTML, CSS, JavaScript, SQL, PYHTON and Angular, I bring hands-on experience in building responsive user interfaces and scalable web applications.My training at Whizzo Infotech Pvt. Ltd. further honed my expertise in modern web development frameworks. With a working knowledge of computer networks, artificial intelligence, and machine learning and the basics of ERP systems, giving me a well-rounded view of how technology supports business operations. I’m passionate about leveraging technology to create impactful digital solutions. I am actively seeking opportunities to collaborate with innovative teams and contribute to innovative projects.I’ve successfully developed and programmed an automation bot, showcasing my practical problem-solving skills.</p>
+                    <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#aboutModal">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutModalLabel">More About Me</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>With a passion for technology, I have honed skills in both front-end development and data management system. I am constantly seeking new challenges to expand my expertise and contribute to innovative solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <section id="education" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h5>B.Tech in Information Technology</h5>
+                    <p>Haldia Institute of Technology</p>
+                    <p>CGPA: 8.33</p>
+                    <p>Nov 2020 - July 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Experience</h2>
+            <div class="accordion" id="experienceAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Brainpower Technologies Pvt. Ltd.
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            <p><strong>Role:</strong> Software Support and Implementation Engineer</p>
+                            <p><strong>Duration:</strong> Jan 2025 - Present</p>
+                            <ul>
+                                <li>Provided support and implementation of ERP systems solutions using MariaDB and TOAD for Oracle servers.</li>
+                                <li>Client interaction and solution to the problems of food chain users, ticketing system users, and salon ERP users according to their requirements.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/AttendenceSystemProjectImage.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Student Attendance System</h5>
+                            <p class="card-text">A web application to record and monitor student attendance with login authentication for administration, teachers, and students.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Student Attendance System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This project helps track student attendance using a user-friendly web interface. Students can view their attendance, and teachers can input attendance data on a daily basis. It ensures smooth monitoring and management of class attendance.</p>
+                    <p><strong>Technologies used:</strong> HTML, CSS, Bootstrap, Angular</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="row">
+            <!-- Skill Card 1 -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>FRONT END DEVELOPMENT</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- Skill Card 2 -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>ERP</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- Skill Card 3 -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>SQL</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div> --> 
+                </div>
+            </div>
+            <!-- Skill Card 4 -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>PYTHON</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div> --> 
+                </div>
+            </div>
+            <!-- Skill Card 5 -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>JAVASCRIPT</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div> --> 
+                </div>
+            </div>
+            <!-- Skill Card 6 -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>ANGULAR</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div> --> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Achievements</h2>
+        <div class="row">
+            <!-- Achievement 1 -->
+            <div class="col-md-4">
+                <div class="achievement-item">
+                    <i class="fas fa-trophy"></i>
+                    <h5>5-Star Ranking in Python</h5>
+                    <p>Ranked 5 stars in Python on HackerRank after completing over 100 challenges.</p>
+                </div>
+            </div>
+            <!-- Achievement 2 -->
+            <div class="col-md-4">
+                <div class="achievement-item">
+                    <i class="fas fa-medal"></i>
+                    <h5>2-Star Ranking in C</h5>
+                    <p>2-Star ranking on CodeChef for solving various algorithm problems.</p>
+                </div>
+            </div>
+            <!-- Achievement 3 -->
+            <div class="col-md-4">
+                <div class="achievement-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h5>Student Attendance System</h5>
+                    <p>Built a web-based attendance system with login authentication and role management.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Training Section -->
+<section id="training" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Training & Internships</h2>
+        <ul class="training-list">
+            <li>
+                <i class="fas fa-code"></i>
+                <div>
+                    <h5>Web Development with Angular</h5>
+                    <p>Completed an internship where I learned Angular, HTML, and CSS to develop full-stack web applications.</p>
+                    <span class="duration">Duration: 4 weeks</span>
+                </div>
+            </li>
+            <!--<li>
+                <i class="fas fa-python"></i>
+                <div>
+                    <h5>Python Programming</h5>
+                    <p>Completed a Python course and worked on multiple projects like automation bots and data analysis.</p>
+                    <span class="duration">Duration: 3 months</span>
+                </div>
+            </li>
+            <li>
+                <i class="fas fa-cogs"></i>
+                <div>
+                    <h5>Automation Bots (IEEE)</h5>
+                    <p>Built automation bots that follow white path lines, enhancing my knowledge of embedded systems and Arduino.</p>
+                    <span class="duration">Duration: 2 months</span>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+</section>
+
+
+<!-- hobby section -->
+
+<section id="hobby" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Hobbies</h2>
+        <div class="row">
+            <!-- Skill Card 1 -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>Singing</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>Listening music</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>Programming</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <h4>Sports</h4>
+                    <!-- <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <form>
+            <!-- <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required />
+            </div> -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address : </label>
+                <span>harshnagwan704.hitit2020@gmail.com<span>
+            </div>
+            <!-- <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+            </div> 
+            <button type="submit" class="btn btn-primary">Send Message</button> -->
+        </form>
+    </div>
+</section>    
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2025 Harsh Nagwan. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
